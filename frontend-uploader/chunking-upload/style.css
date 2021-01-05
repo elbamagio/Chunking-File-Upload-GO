@@ -1,0 +1,88 @@
+body {
+	margin: 0 auto;
+	background-color:#f7f7f7;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #000000;
+    font-size: 12px;
+}
+h1 {
+	font-size:32px;
+	margin-top:30px;
+}
+.bigUpload .bigUploadContainer {
+    max-width: 1000px;
+    height: 500px;
+	padding: 20px 30px 30px;
+	margin: 0 auto 20px;
+	margin-top:75px;
+	background-color: #dee1ec;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    text-align: center;
+
+}
+
+
+.bigUpload #bigUploadFile {
+	text-align: center;
+	width: 600px;
+	height: 200px;
+	border: 3px solid #cec5b6;
+	border-style: dashed;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	padding: 10px;
+}
+.bigUpload .bigUploadButton {
+	background-color: #2f89fc;
+	border: 1px solid rgba(0, 0, 0, 0.09);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius:6px;
+	padding-bottom: 11px;
+	padding-left: 19px;
+	padding-right: 19px;
+	padding-top: 11px;
+	font-size: 18px;
+	color:#ffffff;
+	cursor: pointer;
+	margin-top:15px;
+	margin-left:-0px;
+	font-size: 18px;
+	margin: left;
+}
+.bigUpload .bigUploadAbort {
+	background-color:#d72323;
+}
+
+.bigUpload #bigUploadProgressBarContainer {
+	width:94%;
+	height:19px;
+	margin-left: 3%;
+	margin-top:3%;
+	border: 2px solid #cec5b6;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.bigUpload #bigUploadProgressBarFilled {
+	border-radius: 5px;
+	margin: 1px;
+	height:17px;
+	width:0;
+	background-color:  #226089;
+	font-size: 14px;
+}
